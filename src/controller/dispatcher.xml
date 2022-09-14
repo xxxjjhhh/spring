@@ -4,5 +4,5 @@
 </servlet>
 <servlet-mapping>
   <servlet-name>dispatcherController</servlet-name>
-  <url-pattern>/*</url-pattern>
+  <url-pattern>/</url-pattern>
 </servlet-mapping>
