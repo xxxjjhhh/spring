@@ -1,6 +1,11 @@
+import org.springframework.stereotype.Controller;
+
+
+@Controller
 public class main {
 
-  public static void main(String[] args){
+  @RequestMapping(value = "/");
+  public String main(String[] args){
   
   }
 }
