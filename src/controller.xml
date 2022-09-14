@@ -1,4 +1,3 @@
-//web.xml
 <servlet>
   <servlet-name>dispatcherController</servlet-name>
   <servlet-class>org.springframework.servlet.DispatcherServlet</servlet-class>
