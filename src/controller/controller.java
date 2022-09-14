@@ -5,10 +5,10 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
 
-@Controller
+
 public class controller implements Controller {
 
-  @RequestMapping(value = "/");
+  @Override
   public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throw Exception {
     
     ModelAndView mv = new ModelAndView();
