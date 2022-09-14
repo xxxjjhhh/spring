@@ -13,7 +13,7 @@ public class controller implements Controller {
     
     ModelAndView mv = new ModelAndView();
     mv.addObject("data", "value1");
-    mv.setViewName("post1.jsp");
+    mv.setViewName("post1.jsp"); //절대 경로 추천
     
     return mv;
   
