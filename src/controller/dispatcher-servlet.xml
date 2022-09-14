@@ -1,2 +1,18 @@
-//WEB-INF 하위
+//WEB-INF 하위 위치해야 함
 
+//version
+//https://docs.spring.io/spring-framework/docs/5.2.x/ -> spring-framework-ref -> core -> 1.2.1(Configuration Metadata)
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="/urlEndPoint" class="패키지명.서블릿파일(확장자x)">  
+        <!-- collaborators and configuration for this bean go here -->
+    </bean>
+  
+</beans>
