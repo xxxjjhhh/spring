@@ -2,7 +2,7 @@ import org.springframework.stereotype.Controller;
 
 
 @Controller
-public class main {
+public class controller {
 
   @RequestMapping(value = "/");
   public String main(String[] args){
