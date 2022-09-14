@@ -1,4 +1,8 @@
 //dispachter-servlet.xml에 beans 주석처리
+
+//servlet.-context.xml에 mapping 설정
+<mvc:annotation-driven />
+
 //import javax.servlet.http.HttpServletRequest;
 //import javax.servlet.http.HttpServletResponse;
 
