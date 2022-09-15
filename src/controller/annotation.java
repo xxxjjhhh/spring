@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class controller {
 
   @RequestMapping("/post")
-  public void post (HttpServletRequest request, HttpServletResponse response) throw Exception {
+  public void post (){
     
     ModelAndView mv = new ModelAndView();
     mv.addObject("data", "value1");
